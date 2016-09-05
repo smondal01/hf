@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>HyveFive | Dashboard</title>
+
+    <link rel="stylesheet" type="text/css" href="css/awesome-bootstrap-checkbox.css"/>
+    <link rel="stylesheet" type="text/css" href="css/datatables.min.css"/>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+     
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="wrapper"> <!-- Wrapper -->
+        <div class="header_wrap"> <!-- Header -->
+            <div class="header_left">
+                <a href="#"><img src="img/logo.png" alt="Header Logo"></a>
+            </div>
+
+            <div class="header_middile">
+                <p>Welcome to your HyveFive dashboard</p>
+            </div>
+
+            <div class="header_right">
+                <ul>
+                    <li><a href="#"> <i class="fa fa-user"></i> PROFILE</a></li>
+                    <li><a href="#"> <i class="fa fa-gear"></i> SETTINGS</a></li>
+                    <li><a href="#"> <i class="fa fa-sign-out"></i> LOGOUT</a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div> <!-- / Header -->
+    
+        <div class="content_wrap"> <!-- Content Area -->
+            <div class="container campaign_area">
+                <div class="row">
+
+                    <div class="campaign_main_content">
+                        <div class="col-md-12">
+                            <div class="campaigns_content_wrap campaign1_main_warp">
+
+                                <h2 class="text-center">CAMPAIGN SETUP</h2>
+
+                                <div class="campaigns_content questions_area">
+                                    
+                                   <div class="crowd_main_table-area">
+
+                                   <div class="crowd_select_top_btn">
+                                       <a href="#" class="btn green_white">TYPE</a>
+                                       <a href="#" class="btn green_white">SETINGS</a>
+                                       <a href="#" class="btn green_white">CONTENT</a>
+                                       <a href="#" class="btn green_pure">CROWD</a>
+                                       <a href="#" class="btn gray_pure">SUMMARY</a>
+                                   </div>
+
+                                   <div class="clear"></div>
+
+                                    <div class="top_extra_info_area">
+
+                                        <div class="col-md-4">
+                                            <p>Gender</p>
+
+                                            <div class="checkbox checkbox-info checkbox-circle">
+                                                <input id="checkbox112" class="styled" type="checkbox">
+                                                <label for="checkbox112">
+                                                    Female
+                                                </label>
+                                            </div> 
+                                            <div class="checkbox checkbox-info checkbox-circle">
+                                                <input id="checkbox113" class="styled" type="checkbox">
+                                                <label for="checkbox113">
+                                                    Male
+                                                </label>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4 age_area">
+                                            <p >Age</p>
+
+                                            <select>
+                                                <option value="">25</option>
+                                                <option value="">26</option>
+                                                <option value="">27</option>
+                                            </select>
+
+                                            <span>To</span>
+
+                                             <select>
+                                                <option value="">35</option>
+                                                <option value="">26</option>
+                                                <option value="">27</option>
+                                            </select>
+
+
+
+                                        </div>
+                                        <div class="col-md-4 location_area">
+                                            <p>Location</p>
+
+                                            <input type="text" >
+
+                                            <select >
+                                                <option value=""> &lt; 10 km </option>
+                                            </select>
+                                        </div>
+
+                                        <div class="clear"></div>
+
+                                    </div>
+
+
+                                        <table id="campaign_d1" class="display crowd_list">
+                                            <thead>
+                                                <tr>
+                                                    <th class="text-left">First Name</th>
+                                                    <th class="text-left">Last Name</th>
+                                                    <th>Age</th>
+                                                    <th>Gender</th>
+                                                    <th>Town</th>
+                                                    <th>Zipcode</th>
+                                                    <th>
+                                                        <div class="checkbox checkbox-success">
+                                                            <input id="checkbox33" class="styled" type="checkbox">
+                                                            <label for="checkbox33"></label>
+                                                        </div>
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="text-left">DANIEL</td>
+                                                    <td class="text-left">Janssen</td>
+                                                    <td>33</td>
+                                                    <td>Male</td>
+                                                    <td>Amsterdam</td>
+                                                    <td>1013</td>
+                                                    <td>
+                                                        <div class="checkbox checkbox-success">
+                                                            <input id="checkbox3" class="styled" type="checkbox">
+                                                            <label for="checkbox3"></label>
+                                                        </div>
+                                                    </td>
+
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="text-left">Mark</td>
+                                                    <td class="text-left">De Wit</td>
+                                                    <td>27</td>
+                                                    <td>Male</td>
+                                                    <td>Amsterdam</td>
+                                                    <td>1101</td>
+                                                    <td>
+                                                        <div class="checkbox checkbox-success">
+                                                            <input id="checkbox111" class="styled" type="checkbox">
+                                                            <label for="checkbox111"></label>
+                                                        </div>
+                                                    </td>
+
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-left">Richard</td>
+                                                    <td class="text-left">Lang</td>
+                                                    <td>28</td>
+                                                    <td>Male</td>
+                                                    <td>Amsterdam</td>
+                                                    <td>1025</td>
+                                                    <td>
+                                                        <div class="checkbox checkbox-success">
+                                                            <input id="checkbox9" class="styled" type="checkbox">
+                                                            <label for="checkbox9"></label>
+                                                        </div>
+                                                    </td>
+
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-left">Stefan</td>
+                                                    <td class="text-left">Hout</td>
+                                                    <td>31</td>
+                                                    <td>Male</td>
+                                                    <td>Amsterdam</td>
+                                                    <td>1017</td>
+                                                    <td>
+                                                        <div class="checkbox checkbox-success">
+                                                            <input id="checkbox10" class="styled" type="checkbox">
+                                                            <label for="checkbox10"></label>
+                                                        </div>
+                                                    </td>
+
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-left">Quentin</td>
+                                                    <td class="text-left">Lozach</td>
+                                                    <td>25</td>
+                                                    <td>Male</td>
+                                                    <td>Amsterdam</td>
+                                                    <td>1190</td>
+                                                    <td>
+                                                        <div class="checkbox checkbox-success">
+                                                            <input id="checkbox555" class="styled" type="checkbox">
+                                                            <label for="checkbox555"></label>
+                                                        </div>
+                                                    </td>
+
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-left">Barry</td>
+                                                    <td class="text-left">Groen</td>
+                                                    <td>29</td>
+                                                    <td>Male</td>
+                                                    <td>Amsterdam</td>
+                                                    <td>1012</td>
+                                                    <td>
+                                                        <div class="checkbox checkbox-success">
+                                                            <input id="checkbox666" class="styled" type="checkbox">
+                                                            <label for="checkbox666"></label>
+                                                        </div>
+                                                    </td>
+
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-left">Martin</td>
+                                                    <td class="text-left">Groot</td>
+                                                    <td>31</td>
+                                                    <td>Male</td>
+                                                    <td>Amsterdam</td>
+                                                    <td>1182</td>
+                                                    <td>
+                                                        <div class="checkbox checkbox-success">
+                                                            <input id="checkbox777" class="styled" type="checkbox">
+                                                            <label for="checkbox777"></label>
+                                                        </div>
+                                                    </td>
+
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-left">Jan</td>
+                                                    <td class="text-left">Klaasen</td>
+                                                    <td>33</td>
+                                                    <td>Male</td>
+                                                    <td>Amsterdam</td>
+                                                    <td>1019</td>
+                                                    <td>
+                                                        <div class="checkbox checkbox-success">
+                                                            <input id="checkbox888" class="styled" type="checkbox">
+                                                            <label for="checkbox888"></label>
+                                                        </div>
+                                                    </td>
+
+                                                </tr>
+                                              
+                                                
+                                            </tbody>
+                                        </table>
+                                   </div>
+                                    
+
+                                    <div class="clear"></div>
+
+                                    <div class="table_bottom_btn_area">
+                                        <a href="#" class="back_btn">Back</a>
+                                        <a href="#" class="back_btn">Next</a>
+                                        <a href="#" class="back_btn">Cancel</a>
+                                    </div>                                      
+                                        
+
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                       
+
+                </div>
+            </div>
+        </div> <!-- / Content Area -->
+
+        <footer class="footer_wrap"> <!-- footer -->
+            <div class="copyright">
+                <p>Copyright HyveFive Ⓒ 2016. All rights reserved.</p>
+            </div>
+
+            <div class="footer_menu">
+                <ul>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">TERMS & CONDITIONS</a></li>
+                </ul>
+            </div>
+
+            <div class="clear"></div>
+
+        </footer> <!-- / footer -->
+
+    </div> <!-- / Wrapper -->
+
+
+	
+
+    <!-- Mainly scripts -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.12/datatables.min.js"></script>
+    <script src="js/custom.js"></script>
+     
+</body>
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>HyveFive | Dashboard</title>
+
+    <link rel="stylesheet" type="text/css" href="css/datatables.min.css"/>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+     
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="wrapper"> <!-- Wrapper -->
+        <div class="header_wrap"> <!-- Header -->
+            <div class="header_left">
+                <a href="#"><img src="img/logo.png" alt="Header Logo"></a>
+            </div>
+
+            <div class="header_middile">
+                <p>Welcome to your HyveFive dashboard</p>
+            </div>
+
+            <div class="header_right">
+                <ul>
+                    <li><a href="#"> <i class="fa fa-user"></i> PROFILE</a></li>
+                    <li><a href="#"> <i class="fa fa-gear"></i> SETTINGS</a></li>
+                    <li><a href="#"> <i class="fa fa-sign-out"></i> LOGOUT</a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div> <!-- / Header -->
+    
+        <div class="content_wrap"> <!-- Content Area -->
+            <div class="container campaign_area">
+                <div class="row">
+
+                    <div class="col-md-10">
+                        <div class="campaign_top">
+                        <ul>
+                            <li>
+                                <div class="box_text">
+                                    <div class="box_count_title"><h1>40</h1></div>
+                                    <p>Availabe crowd</p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="box_text">
+                                    <div class="box_count_title"><h1>20</h1></div>
+                                    <p>Viewed campaign</p>
+                                </div>
+
+                                <div class="box_percent">
+                                    50%
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="box_text">
+                                    <div class="box_count_title"><h1>18</h1><span>/100</span></div>
+                                    <p>Completed campaigns</p>
+                                </div>
+
+                                <div class="box_percent">
+                                    90%
+                                </div>
+                            </li>
+
+                           
+                        </ul>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                    <div class="clear"></div>
+
+
+                    <div class="campaign_main_content">
+                        <div class="col-md-10">
+                            <div class="campaigns_content_wrap campaign1_main_warp">
+
+                                <h2>Accepted / Refused timed offer</h2>
+
+                                <div class="campaigns_content questions_area">
+                                    
+                                    <table id="campaign_d1" class="display">
+                                    <thead>
+                                        <tr>
+                                            <th class="text-left">First Name</th>
+                                            <th class="text-left">Last Name</th>
+                                            <th>Accepted/Refused</th>
+                                            <th>Time stamp</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <tr>
+                                            <td class="text-left">DANIEL</td>
+                                            <td class="text-left">LOZACH</td>
+                                            <td class="data_success">ACCEPTED <span class="fa fa-check-circle"></span></td>
+                                            <td class="data_success">14:22 - 24/08/2016</td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="text-left">HANS</td>
+                                            <td class="text-left">THIJSSEN</td>
+                                            <td class="data_success">ACCEPTED <span class="fa fa-check-circle"></span></td>
+                                            <td class="data_success">14:08 - 24/08/2016</td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="text-left">HENK</td>
+                                            <td class="text-left">BOTSERS</td>
+                                            <td class="data_success">ACCEPTED <span class="fa fa-check-circle"></span></td>
+                                            <td class="data_success">13:35 - 24/08/2016</td>
+                                        </tr>
+                                         
+                                        <tr>
+                                            <td class="text-left">BARRY</td>
+                                            <td class="text-left">VAN DEN HEUVEL</td>
+                                            <td class="data_reject">REFUSED <span class="fa fa-times-circle"></span></td>
+                                            <td class="data_reject">11:20 - 24/08/2016</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="text-left">FRANK</td>
+                                            <td class="text-left">GERARDS</td>
+                                            <td class="data_success">ACCEPTED <span class="fa fa-check-circle"></span></td>
+                                            <td class="data_success">09:11 - 24/08/2016</td>
+                                        </tr>                                        
+
+                                        <tr>
+                                            <td class="text-left">FRIEDRICH</td>
+                                            <td class="text-left">MEERHOLDS</td>
+                                             <td class="data_reject">REFUSED <span class="fa fa-times-circle"></span></td>
+                                            <td class="data_reject">15:46 - 23/08/2016</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="text-left">KEES</td>
+                                            <td class="text-left">FRANKEN</td>
+                                             <td class="data_success">ACCEPTED <span class="fa fa-check-circle"></span></td>
+                                            <td class="data_success">14:33 - 23/08/2016</td>
+                                        </tr>
+                                           
+                                        <tr>
+                                            <td class="text-left">QUENTIN</td>
+                                            <td class="text-left">KLIJBERG</td>
+                                             <td class="data_success">ACCEPTED <span class="fa fa-check-circle"></span></td>
+                                            <td class="data_success">13:37 - 23/08/2016</td>
+                                        </tr>  
+                                        <tr>
+                                            <td class="text-left">SANDER</td>
+                                            <td class="text-left">GERRISTEN</td>
+                                             <td class="data_success">ACCEPTED <span class="fa fa-check-circle"></span></td>
+                                            <td class="data_success">12:09 - 23/08/2016</td>
+                                        </tr>  
+                                        <tr>
+                                            <td class="text-left">JORDY</td>
+                                            <td class="text-left">MERDE</td>
+                                             <td class="data_success">ACCEPTED <span class="fa fa-check-circle"></span></td>
+                                            <td class="data_success">11:57 - 23/08/2016</td>
+                                        </tr>
+                                        
+                                        
+                                    </tbody>
+                                </table>
+                                    
+
+                                    <div class="clear"></div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 p_0">
+                            
+                            <div class="sidebar_content_part text-center">
+                                <div class="rewards_point">2</div>
+                                <p>Day(s) remaining <span>End date: 26/08/2016</span></p>
+                            </div>
+
+                            <div class="sidebar_content_part text-center">
+                                <p>NOTIFICATIONS</p>
+
+                                <a href="#" class="red"> <span>1 NEW </span>campaign completion</a>
+
+                                <a href="#" class="sidebar_all_btn">VIEW CROWD LIST <span class="fa fa-arrow-circle-right"></span></a>
+                            </div>
+
+                            <div class="sidebar_content_part text-center">
+                            <img src="img/01.jpg" alt="">
+                                <a href="#" class="sidebar_all_btn">REPORT & EXPORT <span class="fa fa-arrow-circle-right"></span></a>
+                            </div>
+
+                            <a href="#" class="side_bar_btn">VIEW CAMPAIGN CONTENT</a>
+                            <a href="#" class="side_bar_btn bg_red"><span>STOP </span> CAMPAIGN </a>
+
+                        </div>
+                    </div>
+                    
+                       
+
+                </div>
+            </div>
+        </div> <!-- / Content Area -->
+
+        <footer class="footer_wrap"> <!-- footer -->
+            <div class="copyright">
+                <p>Copyright HyveFive Ⓒ 2016. All rights reserved.</p>
+            </div>
+
+            <div class="footer_menu">
+                <ul>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">TERMS & CONDITIONS</a></li>
+                </ul>
+            </div>
+
+            <div class="clear"></div>
+
+        </footer> <!-- / footer -->
+
+    </div> <!-- / Wrapper -->
+
+
+	
+
+    <!-- Mainly scripts -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.12/datatables.min.js"></script>
+    <script src="js/custom.js"></script>
+     
+</body>
+</html>
